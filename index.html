@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="conteiner-global">
+        <div class="conteiner-Logo">
+            <img class="imgLogo" src="img/logo.png" alt="logo">
+        </div>
+        <div class="contenedor-dinamico">
+            <div class="div-cont-btn-prin" ">
+                <div>
+                    <button class="btn-Iniciar">Iniciar juego</button>
+                </div>
+                <div>
+                    <button class="btn-Agregar">Agregar nueva palabra</button>
+                </div>
+            </div>
+            <div class="div-cont-btn-seg">
+                <div class="juego"></div>
+                <div class="letras">
+                    <div style="width: 60px;">
+                        <input class="input-juego" name="" type="text" maxlength="1">
+                        <div style="border: 4px solid #0A3871;"></div>
+                    </div>
+                </div>
+                <div class="div-cont-btn-seg">
+                    <div>
+                        <button class="btn-IniciarNu">Nuevo juego</button>
+                    </div>
+                    <div>
+                        <button class="btn-Desistir">Desistir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
