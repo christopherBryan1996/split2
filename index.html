@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juego de ahorcado</title>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
@@ -14,8 +15,8 @@
             <img class="imgLogo" src="img/logo.png" alt="logo">
         </div>
         <div class="contenedor-dinamico">
-            <div class="div-cont-btn-prin" ">
-                <div>
+            <div class="div-cont-btn-prin" >
+                <div style="height: 118px;">
                     <button class="btn-Iniciar">Iniciar juego</button>
                 </div>
                 <div>
@@ -36,6 +37,19 @@
                     </div>
                     <div>
                         <button class="btn-Desistir">Desistir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="div-cont-agregar">
+                <div style="    height: 292px;">
+                    <textarea name="agregar" id="agregar" placeholder="Ingrese una palabra" cols="30" rows="10"></textarea>
+                </div>
+                <div class="div-btn">
+                    <div >
+                        <button class="btn-guardar">Guardar y empezar</button>
+                    </div>
+                    <div>
+                        <button class="btn-cancelar">Cancelar</button>
                     </div>
                 </div>
             </div>

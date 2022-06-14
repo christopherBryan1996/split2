@@ -150,3 +150,71 @@ body{
     height: 284px;
     width: 100%;
 }
+
+.btn-guardar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    background: #0A3871;
+    border-radius: 11px;
+    justify-content: center;
+    width: 269px;
+    height: 41px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.btn-guardar:hover{
+    background: #E5E5E5;
+    color: #0A3871;
+}
+.btn-cancelar{
+    border-radius: 11px;
+    border-color: #0A3871;
+    width: 269px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;  
+}
+.btn-cancelar:hover{
+    background: #0A3871;
+    color: #FFFFFF;
+}
+#agregar{
+    border: none;
+    background: #E5E5E5;
+    height: 167px;
+    width: 442px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 150%;
+    color: #0A3871;
+}
+.div-btn{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 581px;
+}
+.div-cont-agregar{
+    height: 347px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
