@@ -16,8 +16,9 @@ body{
     align-items: center;
 }
 .imgLogo{
-    width:31.09px;
-    height:48px;
+    width: 31.09px;
+    height: 48px;
+    cursor: pointer;
 }
 .contenedor-dinamico{
     width: 100%;
@@ -149,6 +150,9 @@ body{
 .juego{
     height: 284px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-guardar{
@@ -203,6 +207,7 @@ body{
     font-size: 31px;
     line-height: 150%;
     color: #0A3871;
+    text-transform: uppercase;
 }
 .div-btn{
     display: flex;
@@ -217,4 +222,8 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+#imgAhorcado{
+    width: 400px;
+    height: 280px;
 }
